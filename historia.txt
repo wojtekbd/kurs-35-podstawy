@@ -1,0 +1,405 @@
+commit 981385026c06149e2652e3412e922130c9b4e9d3
+Author: Wojciech B.Dobrowolski <w@bordob.com>
+Date:   Wed Apr 23 16:08:25 2025 +0200
+
+    usunięcie powtarzających się plików refrenów 2 - 5
+
+commit 61d1774cd162d9819aaab6e16dfa8973ec668d27
+Author: Wojciech B.Dobrowolski <w@bordob.com>
+Date:   Wed Apr 23 16:05:11 2025 +0200
+
+    poprawka: odpowiednia aktualizacja piosenka.txt
+
+commit e344e3fe13369087ffb59b0115db300cdc44d2d7
+Author: Wojciech B.Dobrowolski <w@bordob.com>
+Date:   Wed Apr 23 16:03:41 2025 +0200
+
+    refreny 2-5 do jednego pliku, odpowiednia aktualizacja piosenka.txt
+
+commit 8efd5f415173ced3a13427f6a425bf6c563879b0
+Author: Wojciech B.Dobrowolski <w@bordob.com>
+Date:   Wed Apr 23 15:53:30 2025 +0200
+
+    Revert "z pirewszego refrenu usunieto mmm"
+    
+    This reverts commit 862ec83e388f61f2c90f55855fd043d8f0fa2a29.
+
+commit 862ec83e388f61f2c90f55855fd043d8f0fa2a29
+Author: Wojciech B.Dobrowolski <w@bordob.com>
+Date:   Wed Apr 23 15:51:56 2025 +0200
+
+    z pirewszego refrenu usunieto mmm
+
+commit b9c5b8f4849596cce998d584d556c95d6eb14d6e
+Author: Wojciech B.Dobrowolski <w@bordob.com>
+Date:   Wed Apr 16 17:29:51 2025 +0200
+
+    przeniesiono 5 zwrotkę, 5 refren z pliku piosenka.txt
+
+commit a46f286efe85cbc23df7411eba53a2e7f9176d5d
+Author: Wojciech B.Dobrowolski <w@bordob.com>
+Date:   Wed Apr 16 17:29:06 2025 +0200
+
+    przeniesiono 4 zwrotkę, 4 refren z pliku piosenka.txt
+
+commit c30e19deba5c3e012bf0a8723f4457704f8ea9fe
+Author: Wojciech B.Dobrowolski <w@bordob.com>
+Date:   Wed Apr 16 16:04:37 2025 +0200
+
+    przeniesiono 3 zwrotkę, 3 refren z pliku piosenka.txt
+
+commit 3d7a2cc6c39e6f68ec248c393af801229bacb1c4
+Author: Wojciech B.Dobrowolski <w@bordob.com>
+Date:   Wed Apr 16 15:59:37 2025 +0200
+
+    przeniesiono 2 zwrotkę, 2 refren z pliku piosenka.txt
+
+commit bcee8a9e394467a8199aeb4adb52158ad8981037
+Author: Wojciech B.Dobrowolski <w@bordob.com>
+Date:   Wed Apr 16 15:54:38 2025 +0200
+
+    przeniesiono 1 refren
+
+commit 083b20d18b6cf9dd11e65c0eec295b85324139ee
+Author: Wojciech B.Dobrowolski <w@bordob.com>
+Date:   Wed Apr 16 15:49:53 2025 +0200
+
+    plik piosenka.txt po przeniesieniu 1 zreotki
+
+commit d682a48e886081515550ddcbcfe65754eaca2978
+Author: Wojciech B.Dobrowolski <w@bordob.com>
+Date:   Wed Apr 16 15:48:08 2025 +0200
+
+    przeniesiono 1 zwrotkę
+
+commit 9d2ef386a21c198a9820e562aca9899eb0c64464
+Author: Wojciech B.Dobrowolski <w@bordob.com>
+Date:   Wed Apr 16 15:40:06 2025 +0200
+
+    pierwotny tekst przed edycją
+commit 61d1774cd162d9819aaab6e16dfa8973ec668d27
+Author: Wojciech B.Dobrowolski <w@bordob.com>
+Date:   Wed Apr 23 16:05:11 2025 +0200
+
+    poprawka: odpowiednia aktualizacja piosenka.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 2ef6cf4..d723ccb 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -1,10 +1,10 @@
+ zwrotka-1.txt
+ refren-1.txt
+ zwrotka-2.txt
+-refren-2.txt
++refren-2-5.txt
+ zwrotka-3.txt
+-refren-3.txt
++refren-2-5.txt
+ zwrotka-4.txt
+-refren-4.txt
++refren-2-5.txt
+ zwrotka-5.txt
+-refren-5.txt
++refren-2-5.txt
+
+commit b9c5b8f4849596cce998d584d556c95d6eb14d6e
+Author: Wojciech B.Dobrowolski <w@bordob.com>
+Date:   Wed Apr 16 17:29:51 2025 +0200
+
+    przeniesiono 5 zwrotkę, 5 refren z pliku piosenka.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 51b2f74..2ef6cf4 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -6,7 +6,5 @@ zwrotka-3.txt
+ refren-3.txt
+ zwrotka-4.txt
+ refren-4.txt
+-
+-Yes I think to myself
+-What a wonderful world
+-
++zwrotka-5.txt
++refren-5.txt
+
+commit a46f286efe85cbc23df7411eba53a2e7f9176d5d
+Author: Wojciech B.Dobrowolski <w@bordob.com>
+Date:   Wed Apr 16 17:29:06 2025 +0200
+
+    przeniesiono 4 zwrotkę, 4 refren z pliku piosenka.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 32a06cb..51b2f74 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -4,10 +4,8 @@ zwrotka-2.txt
+ refren-2.txt
+ zwrotka-3.txt
+ refren-3.txt
+-
+-I hear baby's cry I watch them grow
+-They'll learn much more than I'll ever know and I think to myself
+-What a wonderful world
++zwrotka-4.txt
++refren-4.txt
+ 
+ Yes I think to myself
+ What a wonderful world
+
+commit c30e19deba5c3e012bf0a8723f4457704f8ea9fe
+Author: Wojciech B.Dobrowolski <w@bordob.com>
+Date:   Wed Apr 16 16:04:37 2025 +0200
+
+    przeniesiono 3 zwrotkę, 3 refren z pliku piosenka.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index dd18467..32a06cb 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -2,11 +2,8 @@ zwrotka-1.txt
+ refren-1.txt
+ zwrotka-2.txt
+ refren-2.txt
+-
+-Uuu Uuu Uuu Uuu Uuu Uuu Uuu
+-
+-I see friends shaking hands Saying "How do you do?"
+-They're really sayin' "I love you"
++zwrotka-3.txt
++refren-3.txt
+ 
+ I hear baby's cry I watch them grow
+ They'll learn much more than I'll ever know and I think to myself
+
+commit 3d7a2cc6c39e6f68ec248c393af801229bacb1c4
+Author: Wojciech B.Dobrowolski <w@bordob.com>
+Date:   Wed Apr 16 15:59:37 2025 +0200
+
+    przeniesiono 2 zwrotkę, 2 refren z pliku piosenka.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 2642a89..dd18467 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -1,9 +1,7 @@
+ zwrotka-1.txt
+ refren-1.txt
+-
+-I see skies of blue and clouds of white The bright blessed day
+-The dark sacred night And I think to myself
+-What a wonderful world
++zwrotka-2.txt
++refren-2.txt
+ 
+ Uuu Uuu Uuu Uuu Uuu Uuu Uuu
+ 
+
+commit bcee8a9e394467a8199aeb4adb52158ad8981037
+Author: Wojciech B.Dobrowolski <w@bordob.com>
+Date:   Wed Apr 16 15:54:38 2025 +0200
+
+    przeniesiono 1 refren
+
+diff --git a/piosenka.txt b/piosenka.txt
+index bea0c09..2642a89 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -1,5 +1,5 @@
+ zwrotka-1.txt
+-What a wonderful world MmmMmm
++refren-1.txt
+ 
+ I see skies of blue and clouds of white The bright blessed day
+ The dark sacred night And I think to myself
+
+commit 083b20d18b6cf9dd11e65c0eec295b85324139ee
+Author: Wojciech B.Dobrowolski <w@bordob.com>
+Date:   Wed Apr 16 15:49:53 2025 +0200
+
+    plik piosenka.txt po przeniesieniu 1 zreotki
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 8704961..bea0c09 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -1,10 +1,4 @@
+-What a woderful world
+-
+-
+-I see trees of green
+-red roses too
+-I see them bloom
+-for me and you and I think to myself
++zwrotka-1.txt
+ What a wonderful world MmmMmm
+ 
+ I see skies of blue and clouds of white The bright blessed day
+
+commit 9d2ef386a21c198a9820e562aca9899eb0c64464
+Author: Wojciech B.Dobrowolski <w@bordob.com>
+Date:   Wed Apr 16 15:40:06 2025 +0200
+
+    pierwotny tekst przed edycją
+
+diff --git a/piosenka.txt b/piosenka.txt
+new file mode 100644
+index 0000000..8704961
+--- /dev/null
++++ b/piosenka.txt
+@@ -0,0 +1,25 @@
++What a woderful world
++
++
++I see trees of green
++red roses too
++I see them bloom
++for me and you and I think to myself
++What a wonderful world MmmMmm
++
++I see skies of blue and clouds of white The bright blessed day
++The dark sacred night And I think to myself
++What a wonderful world
++
++Uuu Uuu Uuu Uuu Uuu Uuu Uuu
++
++I see friends shaking hands Saying "How do you do?"
++They're really sayin' "I love you"
++
++I hear baby's cry I watch them grow
++They'll learn much more than I'll ever know and I think to myself
++What a wonderful world
++
++Yes I think to myself
++What a wonderful world
++
+commit d682a48e886081515550ddcbcfe65754eaca2978
+Author: Wojciech B.Dobrowolski <w@bordob.com>
+Date:   Wed Apr 16 15:48:08 2025 +0200
+
+    przeniesiono 1 zwrotkę
+
+diff --git a/zwrotka-1.txt b/zwrotka-1.txt
+new file mode 100644
+index 0000000..5d6103a
+--- /dev/null
++++ b/zwrotka-1.txt
+@@ -0,0 +1,4 @@
++I see trees of green
++red roses too
++I see them bloom
++for me and you and I think to myself
+commit 3d7a2cc6c39e6f68ec248c393af801229bacb1c4
+Author: Wojciech B.Dobrowolski <w@bordob.com>
+Date:   Wed Apr 16 15:59:37 2025 +0200
+
+    przeniesiono 2 zwrotkę, 2 refren z pliku piosenka.txt
+
+diff --git a/zwrotka-2.txt b/zwrotka-2.txt
+new file mode 100644
+index 0000000..7d84929
+--- /dev/null
++++ b/zwrotka-2.txt
+@@ -0,0 +1,2 @@
++I see skies of blue and clouds of white The bright blessed day
++The dark sacred night And I think to myself
+commit c30e19deba5c3e012bf0a8723f4457704f8ea9fe
+Author: Wojciech B.Dobrowolski <w@bordob.com>
+Date:   Wed Apr 16 16:04:37 2025 +0200
+
+    przeniesiono 3 zwrotkę, 3 refren z pliku piosenka.txt
+
+diff --git a/zwrotka-3.txt b/zwrotka-3.txt
+new file mode 100644
+index 0000000..cbdb566
+--- /dev/null
++++ b/zwrotka-3.txt
+@@ -0,0 +1,4 @@
++Uuu Uuu Uuu Uuu Uuu Uuu Uuu
++
++I see friends shaking hands Saying "How do you do?"
++They're really sayin' "I love you"
+commit a46f286efe85cbc23df7411eba53a2e7f9176d5d
+Author: Wojciech B.Dobrowolski <w@bordob.com>
+Date:   Wed Apr 16 17:29:06 2025 +0200
+
+    przeniesiono 4 zwrotkę, 4 refren z pliku piosenka.txt
+
+diff --git a/zwrotka-4.txt b/zwrotka-4.txt
+new file mode 100644
+index 0000000..9d7e483
+--- /dev/null
++++ b/zwrotka-4.txt
+@@ -0,0 +1,2 @@
++I hear baby's cry I watch them grow
++They'll learn much more than I'll ever know and I think to myself
+commit b9c5b8f4849596cce998d584d556c95d6eb14d6e
+Author: Wojciech B.Dobrowolski <w@bordob.com>
+Date:   Wed Apr 16 17:29:51 2025 +0200
+
+    przeniesiono 5 zwrotkę, 5 refren z pliku piosenka.txt
+
+diff --git a/zwrotka-5.txt b/zwrotka-5.txt
+new file mode 100644
+index 0000000..49f51c7
+--- /dev/null
++++ b/zwrotka-5.txt
+@@ -0,0 +1 @@
++Yes I think to myself
+commit 8efd5f415173ced3a13427f6a425bf6c563879b0
+Author: Wojciech B.Dobrowolski <w@bordob.com>
+Date:   Wed Apr 23 15:53:30 2025 +0200
+
+    Revert "z pirewszego refrenu usunieto mmm"
+    
+    This reverts commit 862ec83e388f61f2c90f55855fd043d8f0fa2a29.
+
+diff --git a/refren-1.txt b/refren-1.txt
+index 519a712..5fc3012 100644
+--- a/refren-1.txt
++++ b/refren-1.txt
+@@ -1 +1 @@
+-What a wonderful world
++What a wonderful world MmmMmm
+
+commit 862ec83e388f61f2c90f55855fd043d8f0fa2a29
+Author: Wojciech B.Dobrowolski <w@bordob.com>
+Date:   Wed Apr 23 15:51:56 2025 +0200
+
+    z pirewszego refrenu usunieto mmm
+
+diff --git a/refren-1.txt b/refren-1.txt
+index 5fc3012..519a712 100644
+--- a/refren-1.txt
++++ b/refren-1.txt
+@@ -1 +1 @@
+-What a wonderful world MmmMmm
++What a wonderful world
+
+commit bcee8a9e394467a8199aeb4adb52158ad8981037
+Author: Wojciech B.Dobrowolski <w@bordob.com>
+Date:   Wed Apr 16 15:54:38 2025 +0200
+
+    przeniesiono 1 refren
+
+diff --git a/refren-1.txt b/refren-1.txt
+new file mode 100644
+index 0000000..5fc3012
+--- /dev/null
++++ b/refren-1.txt
+@@ -0,0 +1 @@
++What a wonderful world MmmMmm
+commit e344e3fe13369087ffb59b0115db300cdc44d2d7
+Author: Wojciech B.Dobrowolski <w@bordob.com>
+Date:   Wed Apr 23 16:03:41 2025 +0200
+
+    refreny 2-5 do jednego pliku, odpowiednia aktualizacja piosenka.txt
+
+diff --git a/refren-2-5.txt b/refren-2-5.txt
+new file mode 100644
+index 0000000..519a712
+--- /dev/null
++++ b/refren-2-5.txt
+@@ -0,0 +1 @@
++What a wonderful world
